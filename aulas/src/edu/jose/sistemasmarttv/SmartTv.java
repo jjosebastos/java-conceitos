@@ -3,8 +3,7 @@ package edu.jose.sistemasmarttv;
 public class SmartTv {
     boolean ligada = false;
     int canal = 1;
-    int volume = 25;
-
+    int volume = 100;
 
     public void escolherCanal (int numeroCanal){
         canal = numeroCanal;
@@ -18,18 +17,27 @@ public class SmartTv {
     }
 
     public void aumentarVolume(){
-        volume = volume + 5;
+        if (volume >= 100) {
+            
+        } else {
+            volume = volume + 5;
+        }
+        
     }
 
     public void diminuirVolume(){
-        volume = volume - 5;
+        if (volume <= 0);  else volume = volume - 5;
     }
 
     public void aumentarCanal(){
-        canal++;
-    } 
+        if (canal >= 100); 
+        else canal++;
+    }
+    
 
     public void diminuirCanal(){
         canal--;
     } 
+
+
 }

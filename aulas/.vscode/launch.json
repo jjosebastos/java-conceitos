@@ -1,0 +1,47 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Operadores",
+            "request": "launch",
+            "mainClass": "edu.jose.operadores.Operadores",
+            "projectName": "aulas_c138dfb7"
+        },
+        {
+            "type": "java",
+            "name": "Usuario",
+            "request": "launch",
+            "mainClass": "edu.jose.sistemasmarttv.Usuario",
+            "projectName": "aulas_c138dfb7"
+        },
+        {
+            "type": "java",
+            "name": "TerminalDados",
+            "request": "launch",
+            "mainClass": "edu.jose.terminal.TerminalDados",
+            "projectName": "aulas_c138dfb7",
+            "args": ["JOSE",
+                    "BEZERRA",
+                    "23",
+                    "1.58"
+        ]
+        },
+        {
+            "type": "java",
+            "name": "Variaveis",
+            "request": "launch",
+            "mainClass": "edu.jose.variaveis.Variaveis",
+            "projectName": "aulas_c138dfb7"
+        }
+    ]
+}
