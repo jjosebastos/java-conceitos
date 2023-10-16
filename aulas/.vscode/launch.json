@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "EntradaDados",
+            "request": "launch",
+            "mainClass": "edu.jose.entrada.EntradaDados",
+            "projectName": "aulas_c138dfb7"
+        },
+        {
+            "type": "java",
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}"
@@ -30,11 +37,12 @@
             "request": "launch",
             "mainClass": "edu.jose.terminal.TerminalDados",
             "projectName": "aulas_c138dfb7",
-            "args": ["JOSE",
-                    "BEZERRA",
-                    "23",
-                    "1.58"
-        ]
+            "args": [
+                "JOSE",
+                "BEZERRA",
+                "23",
+                "1.58"
+            ]
         },
         {
             "type": "java",
